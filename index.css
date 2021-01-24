@@ -1,0 +1,93 @@
+body
+{
+   background-color: #FFFFFF;
+   background-image: url(images/323232.jpg);
+   background-attachment: scroll;
+   background-position: center top;
+   background-repeat: no-repeat;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Shape1
+{
+   border-width: 0;
+}
+#Shape2
+{
+   border-width: 0;
+}
+#Shape3
+{
+   border-width: 0;
+}
+#Shape1
+{
+   width: 156px;
+   height: 158px;
+}
+#Shape2
+{
+   width: 156px;
+   height: 158px;
+}
+#Shape3
+{
+   width: 156px;
+   height: 158px;
+}
+#wb_Shape1
+{
+   position: absolute;
+   left: 221px;
+   top: 453px;
+   width: 156px;
+   height: 158px;
+   z-index: 0;
+}
+#wb_Shape2
+{
+   position: absolute;
+   left: 183px;
+   top: 441px;
+   width: 156px;
+   height: 158px;
+   z-index: 1;
+}
+#wb_Shape3
+{
+   position: absolute;
+   left: 213px;
+   top: 341px;
+   width: 156px;
+   height: 158px;
+   z-index: 2;
+}
+@media only screen and (max-width: 969px)
+{
+#wb_Shape1
+{
+   left: 183px;
+   top: 441px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Shape2
+{
+   left: 253px;
+   top: 571px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Shape3
+{
+   left: 73px;
+   top: 691px;
+   visibility: visible;
+   display: inline;
+}
+}
